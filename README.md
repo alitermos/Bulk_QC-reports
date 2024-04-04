@@ -1,5 +1,5 @@
 # FastQC_processor
-This script streamlines the processing of '.qc files' in bulk by utilizing the 'fastqc command', and organizing the output into a specifically designated folder named 'qc_reports_pretrim'. This facilitates efficient sequence data management and analysis for quality control processes.
+This script streamlines the processing of '.fastq' files in bulk by utilizing the 'fastqc' tool, and organizing the output into a specifically designated folder named 'qc_reports_pretrim'. This facilitates efficient sequence data management and analysis for quality control processes.
 
 ![image](https://github.com/alitermos/Bulk_QC-reports/assets/38148633/337d2ee1-d0bd-4873-a054-522c3ebf2ac7)
 
