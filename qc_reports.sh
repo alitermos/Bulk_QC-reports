@@ -3,14 +3,14 @@
 ##########################################################################################
 # Usage Instructions:
 #
-# To process specific .qc files within the directory:
-# 	./qc_reports.sh <filename-1>.qc <filename-2>.qc ... <filename-N>.qc
+# To process specific .fastq files within the directory:
+# 	./qc_reports.sh <filename-1>.fastq <filename-2>.fastq ... <filename-N>.fastq
 #
-# To process all .qc files in the current directory:
-# 	./qc_reports.sh *.qc
+# To process all .fastq files in the current directory:
+# 	./qc_reports.sh *.fastq
 #
 # * Description:
-# 	This script streamlines the processing of .qc files in bulk by utilizing the 'fastqc' command,
+# 	This script streamlines the processing of .fastq files in bulk by utilizing the 'fastqc' command,
 # 	organizing the output into a specifically designated folder named 'qc_reports_pretrim'. This
 # 	facilitates efficient sequence data management and analysis for quality control processes.
 #
@@ -23,14 +23,14 @@
 # Version: 1.0
 ##########################################################################################
 
-# get all arguments from user as <filename>.qc each
+# get all arguments from user as <filename>.fastq each
 files=($@)
 
 # define output directory
 dfiles="./"
 
 # define file extension
-extension="qc"
+extension="fastq"
 
 # initialize an empty array to store files to be processed
 files_process=()
